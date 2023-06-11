@@ -1,0 +1,22 @@
+{
+  "name": "ass-fonts-modifier",
+  "version": "1.0.0",
+  "description": "A modifier that can modify the font information of .ass files",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/zhouhaixian/ass-fonts-modifier",
+  "author": "Zhou Haixian",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^20.2.6",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "start": "ts-node ."
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^2.1.1",
+    "ass-compiler": "^0.1.8"
+  }
+}
